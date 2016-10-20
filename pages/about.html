@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Cole Robinson</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- CSS  -->
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+  <div class="transparent">
+  <nav class="transparent z-depth-0">
+    <div class="nav-wrapper yellow-text">
+    <a id="logo-container" href="../index.html" class="brand-logo">Cole Robinson</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <!-- <li><a href="../index.html">Home</a></li> -->
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <!-- <li><a href="#">Resume</a></li> -->
+        <li><a href="#" class="active">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+  </div>
+
+<div class="container" id="portfolio"> 
+
+<a href="#" id="back-to-top" title="Back to top">Back to top</a>
+
+<div class="section">
+      <div class="row">
+      
+      
+        <div class="card">
+
+          <div class="card-content grey-text text-darken-4">
+          <h4>About</h4>
+          <div class="about">
+          
+         
+            <div class="center-align" id="myFaceContainer">
+              <img src="../img/myFace2.png" class="responsive-img circle">
+             </div>
+
+             <p class="readable" id="aboutMe">I'm a friendly, responsible, team-oriented full stack developer who is passionate about beautiful, functional, front end UI and elegant, readable, backend algorithms. As a quick learner with a strong work ethic and exceptional analytical skills I consistently meet challenges with enthusiasm and a positive attitude to create products that meet business needs and deliver exceptional user experience.</p>
+    
+    </div> <!-- about -->
+    </div><!-- end card content -->
+    </div><!-- end card -->
+    </div>
+
+
+<div class="row">
+<div class="card">
+
+          <div class="card-content grey-text text-darken-4">
+          <h4>Background</h4>
+          <div class="background">
+
+          <div class="connector1"></div>
+          
+         <div class="background-detail">
+            <div class="center-align img-bubble">
+              <img src="../img/fmfa2.png" class="responsive-img">
+             </div>
+
+             
+
+             <div class="img-description">
+             <p class="readable">Hi, I'm Cole. I'm a friendly, responsible, team-oriented full stack developer who is passionate about beautiful, functional, front end UI and elegant, readable, backend algorithms. As a quick learner with a strong work ethic and exceptional analytical skills I consistently meet challenges with enthusiasm and a positive attitude to create products that meet business needs and deliver exceptional user experience.</p>
+             </div>
+        </div>
+
+                  <div class="connector2"></div>
+
+        <div class="background-detail">
+        <div class="center-align img-bubble">
+              <img src="../img/coding_dojo.jpg" class="responsive-img">
+             </div>
+
+             
+
+             <div class="img-description">
+             <p class="readable">I'm a friendly, responsible, team-oriented full stack developer who is passionate about beautiful, functional, front end UI and elegant, readable, backend algorithms. As a quick learner with a strong work ethic and exceptional analytical skills I consistently meet challenges with enthusiasm and a positive attitude to create products that meet business needs and deliver exceptional user experience.</p>
+             </div>
+
+             
+        </div>
+
+        <div class="connector2"></div>
+
+        <div class="background-detail">
+            <div class="center-align img-bubble">
+              <img src="../img/stanford.png" class="responsive-img">
+             </div>
+             <div class="img-description">
+             <p class="readable">Hi, I'm Cole. I'm a friendly, responsible, team-oriented full stack developer who is passionate about beautiful, functional, front end UI and elegant, readable, backend algorithms. As a quick learner with a strong work ethic and exceptional analytical skills I consistently meet challenges with enthusiasm and a positive attitude to create products that meet business needs and deliver exceptional user experience.</p>
+             </div>
+        </div>
+
+        <div class="connector2"></div>
+
+        <div class="background-detail">
+
+        <div class="center-align img-bubble">
+              <img src="../img/uci.jpg" class="responsive-img" id="uci_img">
+             </div>
+
+             <div class="img-description">
+             <p class="readable">Hi, I'm Cole. I'm a friendly, responsible, team-oriented full stack developer who is passionate about beautiful, functional, front end UI and elegant, readable, backend algorithms. As a quick learner with a strong work ethic and exceptional analytical skills I consistently meet challenges with enthusiasm and a positive attitude to create products that meet business needs and deliver exceptional user experience.</p>
+             </div>
+        </div>
+
+        <div class="connector1"></div>
+    
+    </div> <!-- about -->
+    </div><!-- end card content -->
+    </div><!-- end card -->
+    </div><!-- end row -->
+
+    </div><!-- end section  -->
+
+
+    <!-- <div class="section"> -->
+      
+
+    
+
+
+
+    </div><!--end section -->
+    </div><!--end container -->
+    
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+      if ($('#back-to-top').length) {
+    var scrollTrigger = 200, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+}
+
+
+
+    });
+  </script>
+    
+</body>
+</html>
