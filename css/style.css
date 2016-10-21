@@ -351,3 +351,13 @@ b{
   height: 200px;
   width: 200px;
 }
+
+.position{
+  display: inline-block;
+  width: 65%;
+}
+
+.workDate{
+  display: inline-block;
+  width: 34%;
+}
